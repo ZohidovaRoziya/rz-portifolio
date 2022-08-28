@@ -894,3 +894,10 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+@media (max-width: 992px) {
+  body::before   {
+    background-image: none !important ;
+    background-position: center center;
+  }
+}
